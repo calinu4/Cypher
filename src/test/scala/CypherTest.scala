@@ -15,11 +15,24 @@ class CypherTest extends FlatSpec {
     assert(c.encodeDecode("gsrh rh zm vcznkov lu gsv zgyzhs xrksvi")==="this is an example of the atbash cipher")
   }
 
-  "Decode Result for wizard£90" should "be draziw£90" in{
-    assert(c.encodeDecode("wizard£90")==="draziw£90")
+  "Decode Result for wizard90" should "be draziw90" in{
+    assert(c.encodeDecode("wizard90")==="draziw90")
   }
 
   "Decode Result for hello" should "be svool" in{
     assert(c.encodeDecode("hello")==="svool")
+  }
+
+  "Encode Result for first" should "be urihg" in{
+    assert(c.encodeDecode("first")==="urihg")
+  }
+  "Encode Result for good luck" should "be tllw ofxp" in{
+    assert(c.encodeDecode("good luck")==="tllw ofxp")
+  }
+  "Encode Result for new life" should "mvd oruv" in{
+    assert(c.encodeDecode("new life")==="mvd oruv")
+  }
+  "Encode Result for happy" should "be szkkb" in{
+    assert(c.encodeDecode("happy")==="szkkb")
   }
 }
