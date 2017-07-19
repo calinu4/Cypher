@@ -18,4 +18,8 @@ class CypherTest extends FlatSpec {
   "Decode Result for wizard£90" should "be draziw£90" in{
     assert(c.encodeDecode("wizard£90")==="draziw£90")
   }
+
+  "Decode Result for hello" should "be svool" in{
+    assert(c.encodeDecode("hello")==="svool")
+  }
 }
